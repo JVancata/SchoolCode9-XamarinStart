@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:App1"
              x:Class="App1.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+    <Label Text="Zadej palindrom a já se ti vyseru do ruky, jo?" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+	<Label x:Name="Vypis" Text="Zadej palindrom a já se ti vyseru do ruky, jo?" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    <Entry x:Name="Okay" Text="asdasdHAHAHAH" TextChanged="Okay_TextChanged"></Entry>
 
 </ContentPage>
